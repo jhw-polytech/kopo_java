@@ -1,0 +1,10 @@
+< 질문 >
+
+1. 난수를 구할 때,
+	Math클래스를 이용해 (int)(Math.random()*3)+1)로 구하는 것과
+	Random클래스를 이용해 random.nextInt(2)+1 로 구하는 것의 차이가 궁금합니다!
+	
+	
+2. Game 인터페이스  <-- GamePlay 클래스 <--- ScissorsRockPaper, Dice 클래스
+  이렇게 구성한 뒤, 승패무를 나타내는 static 변수를 GamePlay 클래스에 선언하고,
+  각 게임별 클래스에서 setWin(getWin()+1); 형태로 값을 변경했는데 이런 방법도 괜찮은가요..?
